@@ -1,0 +1,148 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body,html
+{
+	min-height: 100%;
+	min-width: 90%;
+	}
+
+body {
+	margin:0;
+	background-image: url(../Images/gb.jpg);
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:50%;
+}
+
+.wrapper {
+	width=960px;
+	margin:0px auto;
+}
+.logo {
+	float:left;
+	width:97.5%;
+	height:30%;
+	/*isplay:flex;*/
+	text-align:center;
+	padding: 7px 20px;
+	background-color:#6495ED;
+	font-size:35px;
+	color:white;
+	font-family:ubuntu;
+}
+
+nav {
+	overflow:hidden;
+	background-color:#85929E;
+	width:100%;
+	font-family:ubuntu;
+}
+
+nav a {
+  float: left;
+  color: white;
+  /*text-align: center;*/
+  padding: 14px 30px;
+  text-decoration: none;
+  font-family:ubuntu;
+  font-size: 17px;
+  /*display:flex;
+  flex-direction:row;*/
+  display: flex;
+  text-align: -webkit-match-parent;
+    margin-inline-start: 90px;
+   /* margin-inline-end: 110px;*/
+    padding-inline-start: 40px;
+}
+
+nav a:hover {
+  background-color: #F0F3F4;
+  color: #17202A;
+}
+  
+
+nav a.active {
+  background-color: #B3B6B7;
+  color: white;
+}
+
+
+/*.transbox{
+    background-color: #ffffff;
+    border: 7px;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    opacity: 0.8;
+    width: 90%;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    padding: 10px 20px;
+
+}*/
+
+
+.container {
+	background-color: #ffffff;
+    border: 7px;
+    margin-bottom: 50px;
+    margin-left: auto;
+	margin-right:auto;
+    opacity: 0.9;
+    width: 50%;
+    margin: 7em auto;
+    border-radius: 1.3em;
+    padding: 10px 20px;
+	margin-inline-start:auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container h2{
+	/*text-align: center;*/
+	color: #FF0000;
+}
+
+.margin-sm{
+	margin-bottom: 15px !important;
+}
+
+
+input[type=text]{
+  width: 70%;
+  padding: 10px;
+  /*padding-left:10px;
+  margin: 5px 0 22px 0;
+  /*display: flex;
+  text-align: -webkit-match-parent;
+    margin-inline-start: 280px;*/
+  border: none;
+  margin-left:70px;
+  align-content:center;
+  background: #f1f1f1;
+  
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+		cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: #6A5ACD;
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: sans-serif;
+        margin-left: center;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);	
+}
